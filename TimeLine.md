@@ -1,0 +1,35 @@
+# Línea del Tiempo de Marcos (Nacido en 2006)
+
+## 2006 - El Comienzo
+Marcos nace en 2006, en una época de rápida evolución tecnológica. El mundo ya está conectado por Internet y los teléfonos móviles empiezan a volverse imprescindibles.
+
+## 2010 (4 años) - Primer contacto con la tecnología
+Marcos juega por primera vez con un **teléfono móvil**. Su padre le deja explorar juegos simples y aplicaciones de dibujo. Le fascinan las pantallas táctiles.
+
+## 2012 (6 años) - Su primera consola de videojuegos
+A los 6 años, recibe su primera **consola de videojuegos**: una vieja Play Station 1 de su tío. Es su primer contacto con los videojuegos interactivos, y comienza a desarrollar su pasión por ellos.
+
+## 2014 (8 años) - Primer uso de una computadora
+En casa, Marcos empieza a usar el **ordenador familiar** para ver videos en YouTube y jugar pequeños juegos en línea. Su interés por la informática y el funcionamiento de las máquinas comienza a crecer.
+
+## 2015 (9 años) - Su primer móvil personal
+Marcos recibe su primer **móvil personal**, concretamente un dispositivo Android llamado HTC. Empieza a explorar más a fondo las aplicaciones, y siente curiosidad por cómo están hechas.
+![Movil HTC](https://blog.phonehouse.es/wp-content/uploads/2010/05/HTC_Wildfire.png)
+
+## 2020 (14 años) - Primeros pasos en la programación
+Marcos tiene su primer acercamiento a la **programación**, gracias a la gran cantidad de tiempo debido a la pandemia. A través de Scratch, una plataforma que le permite crear historias interactivas y videojuegos simples, le encanta poder crear sus propios juegos y compartirlos con sus amigos.
+
+## 2020 (14 años) - Programación en Python
+Poco tiempo después, decide dejar de lado scratch y empieza a aprender **Python**, uno de los lenguajes de programación más populares. Realiza sus primeros proyectos sencillos como calculadoras y pequeños juegos en consola. 
+
+## 2021 (15 años) - Monta su propio PC
+Tras meses de investigación y ahorro, Marcos monta su propio **PC gaming**. Aprende sobre hardware, ensamblaje y configuración de sistemas operativos. Aunque no es la primera vez que desmonta un ordenador, si es la primera vez que está creando un ordenador para él.
+
+## 2022 (16 años) - Descubre el desarrollo web
+Gracias a una clase de informatica sobre las páginas web, Marcos comienza a aprender **desarrollo web** con HTML y CSS. Se dedica a crear pequeñas páginas web y explorar las tecnologías detrás de los sitios que visita a diario.
+
+## 2023 (17 años) - Primer proyecto real
+A los 17 años, Marcos colabora en su primer proyecto real: crea una página web para un negocio local. Es su primera experiencia aplicando sus conocimientos a un contexto del mundo real, lo que refuerza su pasión por la informática.
+
+## 2024 (18 años) - Preparándose para el futuro
+Ahora, a los 18 años, Marcos está cursando su último año en la escuela secundaria y está decidido a estudiar **Ingeniería Informática**. Continúa mejorando sus habilidades en programación, especialmente en desarrollo de software y aplicaciones móviles, y sueña con trabajar en una gran empresa tecnológica o crear su propia startup.
