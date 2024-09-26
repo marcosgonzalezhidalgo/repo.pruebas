@@ -43,12 +43,15 @@ Tras meses de investigación y ahorro, Marcos monta su propio **PC gaming**. Apr
 Gracias a una clase de informatica sobre las páginas web, Marcos comienza a aprender **desarrollo web** con HTML y CSS. Se dedica a crear pequeñas páginas web y explorar las tecnologías detrás de los sitios que visita a diario.
 
 ## 2023 (17 años) - Primer proyecto real
-A los 17 años, Marcos colabora en su primer proyecto real: crea una página web para un negocio local. Es su primera experiencia aplicando sus conocimientos a un contexto del mundo real, lo que refuerza su pasión por la informática.
+A los 17 años, Marcos colabora en un proyecto ficticio: creae una página web para un negocio local. Es su primera experiencia aplicando sus conocimientos a un contexto del mundo real, lo que refuerza su pasión por la informática.
 
 ## 2024 (18 años) - Preparándose para el futuro
-Ahora, a los 18 años, Marcos está cursando su último año en la escuela secundaria y está decidido a estudiar **Ingeniería Informática**. Continúa mejorando sus habilidades en programación, especialmente en desarrollo de software y aplicaciones móviles, y sueña con trabajar en una gran empresa tecnológica o crear su propia startup.
+Ahora, a los 18 años, Marcos tras cursar su último año de bachiller ya está decidido a estudiar **Ingeniería Informática**. Continúa mejorando sus habilidades en programación, especialmente en desarrollo de software y aplicaciones móviles, y sueña con trabajar en una gran empresa tecnológica o crear su propia startup.
 
 
+
+
+## <span style="color:#00BFFF">Este texto es azul</span>
 
 
 
