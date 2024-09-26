@@ -13,7 +13,7 @@ Marcos juega por primera vez con un **teléfono móvil**. Su padre le deja explo
 ## 2012 (6 años) - Su primera consola de videojuegos
 A los 6 años, recibe su primera **consola de videojuegos**: una vieja _Play Station 1_ de su tío. Es su primer contacto con los videojuegos interactivos, y comienza a desarrollar su pasión por ellos.
 
-## 2014 (8 años) - Primer uso de una computadora
+## 2014 (8 años) - Primer uso de un ordenador
 En casa, Marcos empieza a usar el **ordenador familiar** para ver videos en YouTube y jugar pequeños juegos en línea. Su interés por la informática y el funcionamiento de las máquinas comienza a crecer.
 
 ## 2015 (9 años) - Su primer móvil personal
@@ -46,7 +46,7 @@ Tras meses de investigación y ahorro, Marcos monta su propio **PC gaming**. Apr
 ## 2022 (16 años) - Descubre el desarrollo web
 Gracias a una clase de informatica sobre las páginas web, Marcos comienza a aprender **desarrollo web** con `HTML` y `CSS`. Se dedica a crear pequeñas páginas web y explorar las tecnologías detrás de los sitios que visita a diario.
 
-## 2023 (17 años) - Primer proyecto real
+## 2023 (17 años) - Primer proyecto ficticio
 A los 17 años, Marcos colabora en un proyecto ficticio: creae una página web para un negocio local. Es su primera experiencia aplicando sus conocimientos a un contexto del mundo real, lo que refuerza su pasión por la informática.
 
 ## 2024 (18 años) - Preparándose para el futuro
@@ -59,16 +59,17 @@ Ahora, a los 18 años, Marcos tras cursar su último año de bachiller ya está 
 
 
 
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-|--------------|--------------|--------------|
-| Dato 1       | Dato 2       | Dato 3       |
-
-
-
-
-
-
-
-
-
-
+|  Año | resumen                  |
+|------|--------------------------|
+| 2006 | Comienzo                 |
+| 2010 | Primer contacto          |
+| 2012 | Primera consola          |
+| 2014 | Primer ordenador         |
+| 2015 | Primer móvil             | 
+| 2018 | Desmontando un ordenador |
+| 2020 | Programación             |
+| 2020 | Python                   |
+| 2021 | Propio ordenador         |
+| 2022 | Desarrollo web           |
+| 2023 | Proyecto ficticio        |
+| 2024 | El futuro                |
