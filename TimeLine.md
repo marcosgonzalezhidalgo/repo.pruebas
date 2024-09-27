@@ -1,5 +1,25 @@
 # Línea del Tiempo de Marcos 
 
+<details>
+<summary>Haz clic para ver el resumen de a línea del tiempo</summary>
+
+|  Año | resumen                  |
+|------|--------------------------|
+| 2006 | [Comienzo](#2006---el-comienzo)                 |
+| 2010 | [Primer contacto](#2010-4-años---primer-contacto-con-la-tecnología)|
+| 2012 | [Primera consola](#2012-6-años---primera-consola-de-videojuegos-)|
+| 2014 | [Primer ordenador](#2014-8-años---primer-uso-de-un-ordenador-️)|
+| 2015 | [Primer móvil](#2015-9-años---primer-móvil-personal)| 
+| 2018 | [Desmontando un ordenador](#2018-12-años---primer-trasteo-con-ordenadores-)|
+| 2020 | [Programación](#2020-14-años---primeros-pasos-en-la-programación)|
+| 2020 | [Python](#2020-14-años---programación-en-python)|
+| 2021 | [Propio ordenador](#2021-15-años---monto-mi-propio-pc)|
+| 2022 | [Desarrollo web](#2022-16-años---descubro-el-desarrollo-web-)|
+| 2023 | [Proyecto ficticio](#2023-17-años---primer-proyecto-ficticio)|
+| 2024 | [El futuro](#2024-18-años---preparándome-para-el-futuro-)|
+
+</details>
+
 ## 2006 - El Comienzo
 He nacido en 2006, una época de gran evolución evolución tecnológica. El mundo ya estaba conectado por Internet y los teléfonos móviles empezaban a volverse imprescindibles, ya posteriormente saldrían dispositivos como el ***Apple Iphone 2G (2007)***.
 
@@ -11,7 +31,7 @@ He nacido en 2006, una época de gran evolución evolución tecnológica. El mun
 Por primera vez juego con un **teléfono móvil**. Mi padre me deja explorar juegos simples y aplicaciones de dibujo. Me encanta pasar el tiempo divirtiéndose con diversos juegos y vídeos.
 
 ## 2012 (6 años) - Primera consola de videojuegos 🎮
-A los 6 años, consigo mi primera **consola de videojuegos**: una vieja _Play Station 1_ de mi tío. Es mi primer contacto con los videojuegos interactivos, y comienzo a desarrollar mi pasión por ellos.
+A los 6 años, consigo mi primera **consola de videojuegos**: una vieja _PlayStation 1_ de mi tío. Es mi primer contacto con los videojuegos interactivos, y comienzo a desarrollar mi pasión por ellos.
 
 <img src="https://i.ebayimg.com/images/g/ZAwAAOSw1DtXD6~j/s-l1200.jpg" alt="Descripción" width="40%"/>
 
@@ -57,22 +77,3 @@ Ahora, a los 18 años, tras cursar mi último año de bachiller ya estoy decidid
 
 -----
 
-<details>
-<summary>Haz clic para ver el resumen de a línea del tiempo</summary>
-
-|  Año | resumen                  |
-|------|--------------------------|
-| 2006 | Comienzo                 |
-| 2010 | Primer contacto          |
-| 2012 | Primera consola          |
-| 2014 | Primer ordenador         |
-| 2015 | Primer móvil             | 
-| 2018 | Desmontando un ordenador |
-| 2020 | Programación             |
-| 2020 | Python                   |
-| 2021 | Propio ordenador         |
-| 2022 | Desarrollo web           |
-| 2023 | Proyecto ficticio        |
-| 2024 | El futuro                |
-
-</details>
