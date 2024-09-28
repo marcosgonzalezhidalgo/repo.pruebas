@@ -21,23 +21,23 @@
 </details>
 
 ## 2006 - El Comienzo
-He nacido en 2006, una época de gran evolución evolución tecnológica. El mundo ya estaba conectado por Internet y los teléfonos móviles empezaban a volverse imprescindibles, ya posteriormente saldrían dispositivos como el ***Apple Iphone 2G (2007)***.
+He nacido en 2006, una época de gran evolución evolución tecnológica. El mundo ya estaba conectado por Internet y los teléfonos móviles empezaban a volverse imprescindibles, ya que posteriormente saldrían dispositivos como el ***Apple Iphone 2G (2007)***.
 
 <div style="text-align: center;">
    <img src="https://www.internethistorypodcast.com/wp-content/uploads/2017/01/steve-jobs-iphone-2007.jpg" alt="Descripción" width="40%"/>
 </div>
 
 ## 2010 (4 años) - Primer contacto con la tecnología
-Por primera vez juego con un **teléfono móvil**. Mi padre me deja explorar juegos simples y aplicaciones de dibujo. Me encanta pasar el tiempo divirtiéndose con diversos juegos y vídeos.
+Por primera vez juego con un **teléfono móvil**. Mi madre me deja explorar juegos simples y aplicaciones de dibujo. Me encanta pasar el tiempo divirtiéndose con diversos juegos y vídeos.
 
 ## 2012 (6 años) - Primera consola de videojuegos 🎮
-A los 6 años, consigo mi primera **consola de videojuegos**: una vieja _PlayStation 1_ de mi tío. Es mi primer contacto con los videojuegos interactivos, y comienzo a desarrollar mi pasión por ellos.
+A los 6 años, consigo mi primera **consola de videojuegos**: una vieja _PlayStation 1_ de mi padre, que estaba guardada en el garaje. Es mi primer contacto con los videojuegos, y comienzo a desarrollar mi pasión por ellos.
 
 <img src="https://i.ebayimg.com/images/g/ZAwAAOSw1DtXD6~j/s-l1200.jpg" alt="Descripción" width="40%"/>
 
 
 ## 2014 (8 años) - Primer uso de un ordenador 🖥️
-En mi casa, empiezo a usar el **ordenador familiar** para ver videos en YouTube y jugar pequeños juegos en línea. Mi interés por la informática y el funcionamiento de las máquinas comienza a crecer.
+En mi casa, empiezo a usar el **ordenador familiar** para ver videos en YouTube y jugar pequeños juegos en línea. En este punto empiezo a interesarme por la informática y la tecnología.
 
 ## 2015 (9 años) - Primer móvil personal
 Recibo mi primer **móvil personal**, concretamente un dispositivo Android llamado HTC. Empiezo a explorar más a fondo las aplicaciones, y siento curiosidad por cómo están hechas.
@@ -67,13 +67,16 @@ Tras meses de investigación y ahorro, monto mi propio **PC gaming**. Aprendo so
 ![Persona montando ordenador](https://media1.giphy.com/media/CZokLM4Ax23DbPN2Py/200w.gif?cid=6c09b952vapzemz43nuvgwdps2ry12gf8xcvgh092zgkj2bf&ep=v1_gifs_search&rid=200w.gif&ct=g)
 
 ## 2022 (16 años) - Descubro el desarrollo web 🧑🏻‍💻
-Gracias a una clase de informatica sobre las páginas web, comienzo a aprender **desarrollo web** con `HTML` y `CSS`. Me dedico a crear pequeñas páginas web y explorar las tecnologías detrás de los sitios que visito a diario.
+Gracias a una clase de informática sobre las páginas web, comienzo a aprender **desarrollo web** con `HTML` y `CSS`. Me dedico a crear pequeñas páginas web y explorar las tecnologías detrás de los sitios que visito a diario.
 
 ## 2023 (17 años) - Primer proyecto ficticio
 A los 17 años, colaboro en un proyecto ficticio en clase: crear una página web para un negocio local. Es mi primera experiencia aplicando mis conocimientos a un contexto del mundo real, lo que refuerza mi pasión por la informática.
 
+Esta fue una de las primeras versiones de la página web del proyecto, estaba defectuosa, le faltaban varios enlaces y le faltaba diseño, pero finalmente conseguiría terminarla. Viéndolo ahora te das cuenta de como pasa el tiempo.
+
+https://lcconstrucciones.github.io/Construcciones-LC/index.html
+
 ## 2024 (18 años) - Preparándome para el futuro 🧑🏻‍🎓
-Ahora, a los 18 años, tras cursar mi último año de bachiller ya estoy decidido a estudiar **Ingeniería Informática**. Continúo mejorando mis habilidades en programación, especialmente en desarrollo de software y aplicaciones móviles, y sueño con trabajar en una gran empresa tecnológica o crear mi propia startup.
+Ahora, a los 18 años, tras cursar mi último año de bachiller ya estoy decidido a estudiar **Ingeniería Informática**. Continuaré mejorando mis habilidades en programación, especialmente en desarrollo de software y aplicaciones móviles, y además sueño con trabajar en una gran empresa tecnológica o crear mi propia startup.
 
 -----
-
