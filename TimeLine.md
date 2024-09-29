@@ -1,11 +1,11 @@
-# Línea del Tiempo de Marcos 
+# Línea del Tiempo de Marcos González
 
 <details>
-<summary>Haz clic para ver el resumen de a línea del tiempo</summary>
+<summary>Haz clic para ver el resumen de la línea del tiempo</summary>
 
 |  Año | resumen                  |
 |------|--------------------------|
-| 2006 | [Comienzo](#2006---el-comienzo)                 |
+| 2006 | [Comienzo](#2006---el-comienzo)|
 | 2010 | [Primer contacto](#2010-4-años---primer-contacto-con-la-tecnología)|
 | 2012 | [Primera consola](#2012-6-años---primera-consola-de-videojuegos-)|
 | 2014 | [Primer ordenador](#2014-8-años---primer-uso-de-un-ordenador-️)|
@@ -59,7 +59,8 @@ Tras investigar sobre como estan montados los ordenadores y que piezas usa cada 
 Tengo mi primer acercamiento a la **programación**, gracias a la gran cantidad de tiempo debido a la pandemia. A través de `Scratch`, una plataforma que me permite crear historias interactivas y videojuegos simples. Me encanta poder crear sus propios juegos y compartirlos con mis amigos.
 
 ## 2020 (14 años) - Programación en Python
-Poco tiempo después, decido dejar de lado scratch y empieza a aprender **`Python`**, uno de los lenguajes de programación más populares. Realizo mis primeros proyectos sencillos como calculadoras y pequeños juegos en consola. 
+Poco tiempo después, decido dejar de lado scratch y empiezo a aprender **`Python`**, uno de los lenguajes de programación más populares. Realizo mis primeros proyectos sencillos como calculadoras y pequeños juegos en consola. 
+
 
 ## 2021 (15 años) - Monto mi propio PC
 Tras meses de investigación y ahorro, monto mi propio **PC gaming**. Aprendo sobre hardware, ensamblaje y configuración de sistemas operativos. Aunque no es la primera vez que desmonto un ordenador, si es la primera vez que estoy creando un ordenador para mi.
@@ -77,6 +78,10 @@ Esta fue una de las primeras versiones de la página web del proyecto, estaba de
 https://lcconstrucciones.github.io/Construcciones-LC/index.html
 
 ## 2024 (18 años) - Preparándome para el futuro 🧑🏻‍🎓
-Ahora, a los 18 años, tras cursar mi último año de bachiller ya estoy decidido a estudiar **Ingeniería Informática**. Continuaré mejorando mis habilidades en programación, especialmente en desarrollo de software y aplicaciones móviles, y además sueño con trabajar en una gran empresa tecnológica o crear mi propia startup.
+Ahora, a los 18 años, tras cursar mi último año de bachiller ya estoy decidido a estudiar **Ingeniería Informática**. Continuaré mejorando mis habilidades en programación para poder hacer cosas como:
+
+- Desarrollar software y aplicaciones móviles.
+- Trabajar en una gran empresa tecnológica.
+- Crear mi propia startup.
 
 -----
