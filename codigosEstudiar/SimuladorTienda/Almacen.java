@@ -1,9 +1,9 @@
 package codigosEstudiar.SimuladorTienda;
 
 public class Almacen {
-    private Producto[] inventario;
+    public Producto[] inventario;
     private int cantidadInventario;
-    private static final int MAX_CAPACIDAD = 20;
+    public static final int MAX_CAPACIDAD = 20;
 
     public Almacen() {
         inventario = new Producto[MAX_CAPACIDAD];
@@ -28,5 +28,9 @@ public class Almacen {
                 System.out.println((i + 1) + "." + inventario[i]);
             }
         }
+    }
+
+    public Producto[] getInventario() {
+        return inventario;
     }
 }

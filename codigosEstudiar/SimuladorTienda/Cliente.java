@@ -12,7 +12,7 @@ public class Cliente {
 
     public Cliente(String nombre) {
         this.nombre = nombre;
-        this.carrito = new Carrito();
+        this.carrito = new Carrito();    
     }
 
     public String getNombre() {

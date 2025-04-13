@@ -7,24 +7,24 @@ public class Tienda {
     public static void main(String[] args) {
         Tienda tienda = new Tienda();
         Almacen almacen = new Almacen();
+        Cliente[] clientes = new Cliente[Cliente.MAX_CLIENTES];
+
         tienda.realizarPedido(almacen);
 
         almacen.mostrarInventario();
 
-        Cliente[] clientes = new Cliente[Cliente.MAX_CLIENTES];
+        tienda.generarClientes(clientes);
 
-        for (int i = 0; i < clientes.length; i++) {
-            String nombreAleatorio = Cliente.getNombreAleatorio();
-            clientes[i] = new Cliente(nombreAleatorio);
-        }
-        
-        int clienteActual = (int)(Math.random() * Cliente.MAX_CLIENTES);
-        Cliente elegido = clientes[clienteActual];
-        System.out.println("Cliente elegido: " + elegido.getNombre());
+        tienda.esogerClienteAleatorio(clientes);
+
+        tienda.clienteAñadirProductosAleatoriosAlCarrito(almacen, 3);
+
+        tienda.elegido.mostrarCarrito();
     }
 
     private Pedido pedido;
     private Scanner scanner = new Scanner(System.in);
+    private Cliente elegido;
 
     public Tienda() {
         pedido = new Pedido();
@@ -77,21 +77,24 @@ public class Tienda {
     }
 
     private void añadirProductos() {
-        if (pedido.cantidadPedido >= Pedido.MAX_PEDIDO) {
-            System.out.println("No puedes añadir más productos.");
-            return;
-        }
-
         boolean eligiendo = true;
+        pedido.mostrarProductosDisponibles();
         while (eligiendo) {
-            pedido.mostrarProductosDisponibles();
+            if (pedido.cantidadPedido >= Pedido.MAX_PEDIDO) {
+                System.out.println("No puedes añadir más productos.");
+                break;
+            }
+
             System.out.println("Seleccione el producto (0 para salir):");
             int opcion = scanner.nextInt();
 
             if (opcion == 0) {
                 eligiendo = false;
             } else if (opcion >= 1 && opcion <= 30) {
-                Producto producto = new Producto(pedido.getNombre()[opcion - 1], pedido.getPrecio()[opcion - 1], pedido.getCodigo()[opcion - 1]);
+                Producto producto = new Producto(
+                        pedido.getNombre()[opcion - 1],
+                        pedido.getPrecio()[opcion - 1],
+                        pedido.getCodigo()[opcion - 1]);
                 pedido.añadirProductosPedido(producto);
             } else {
                 System.out.println("Opción inválida.");
@@ -99,4 +102,34 @@ public class Tienda {
         }
     }
 
+    private Cliente[] generarClientes(Cliente[] clientes) {
+
+        for (int i = 0; i < clientes.length; i++) {
+            String nombreAleatorio = Cliente.getNombreAleatorio();
+            clientes[i] = new Cliente(nombreAleatorio);
+        }
+
+        return clientes;
+    }
+
+    private void esogerClienteAleatorio(Cliente[] clientes) {
+        int clienteActual = (int) (Math.random() * Cliente.MAX_CLIENTES);
+        elegido = clientes[clienteActual];
+        System.out.println("Cliente elegido: " + elegido.getNombre());
+    }
+
+    private void clienteAñadirProductosAleatoriosAlCarrito(Almacen almacen, int cantidad) {
+        Producto[] inventario = almacen.getInventario();
+        int añadidos = 0;
+        while (añadidos < cantidad) {
+            int indiceAleatorio = (int) (Math.random() * inventario.length);
+            Producto producto = inventario[indiceAleatorio];
+
+            if (producto != null) {
+                elegido.getCarrito().añadirProductos(producto);
+                System.out.println("Producto añadido al carrito: " + producto.getNombre());
+                añadidos++;
+            }
+        }
+    }
 }

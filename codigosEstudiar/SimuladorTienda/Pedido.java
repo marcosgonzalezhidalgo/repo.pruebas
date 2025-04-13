@@ -6,7 +6,7 @@ public class Pedido {
     public int cantidadPedido;
     private String[] nombre = {
             "1. Leche", "2. Pan", "3. Huevos", "4. Tomates", "5. Manzanas", "6. Plátanos", "7. Arroz", "8. Pasta",
-            "9. Aceite", "10. Azúcar", "11. Harina", "12. Café", "13. Té", "14. Jugo", "15. Mantequilla", "16. Queso",
+            "9. Aceite", "10. Azúcar", "11. Harina", "12. Café", "13. Té", "14. Zumo", "15. Mantequilla", "16. Queso",
             "17. Yogur", "18. Sal", "19. Pimienta", "20. Ajo", "21. Cebolla", "22. Zanahorias", "23. Lechuga",
             "24. Pepinos", "25. Papas", "26. Pechugas de pollo", "27. Pescado", "28. Galletas", "29. Chocolate",
             "30. Cereales"
