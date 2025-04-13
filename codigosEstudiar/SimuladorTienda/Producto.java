@@ -8,7 +8,7 @@ public class Producto {
     public Producto(String nombre, double precio, int codigo){
         this.nombre = nombre;
         this.precio = precio;
-        this.codigo = codigo; 
+        this.codigo = codigo;
     }
     
     public String getNombre(){
@@ -23,7 +23,6 @@ public class Producto {
         return codigo;
     }
 
-    @Override
     public String toString(){
         return nombre + " - $" + precio + " - Código: " + codigo;
     }

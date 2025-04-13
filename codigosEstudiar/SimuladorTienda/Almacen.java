@@ -14,7 +14,7 @@ public class Almacen {
         if (cantidadInventario < inventario.length) {
             inventario[cantidadInventario] = producto;
             cantidadInventario++;
-            System.out.println("El prodducto " + producto.getNombre() + " ha sido añadido al inventario.");
+            System.out.println("El producto " + producto.getNombre() + " ha sido añadido al inventario.");
         } else {
             System.out.println("El inventario está lleno. No se pueden añadir más productos.");
         }

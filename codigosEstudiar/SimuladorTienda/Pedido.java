@@ -1,5 +1,4 @@
 package codigosEstudiar.SimuladorTienda;
-import java.util.Scanner;
 
 public class Pedido {
     public static final int MAX_PEDIDO = 15;
@@ -20,19 +19,18 @@ public class Pedido {
             7.00
     };
     private int[] codigo = {
-            1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008,
-            1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016,
-            1017, 1018, 1019, 1020, 1021, 1022, 1023,
-            1024, 1025, 1026, 1027, 1028, 1029,
-            1030
+            3847, 9271, 4120, 6352, 1049, 7630, 5913, 8475,
+            1782, 3269, 7503, 4930, 2094, 6841, 3728, 9586,
+            2471, 6015, 7109, 1654, 8137, 5396, 6921,
+            4305, 2951, 8742, 3649, 7012, 1207,
+            9860
     };
 
     public Pedido() {
-        System.out.println("Solo se pueden añadir "+ MAX_PEDIDO +" productos al pedido.");
+        System.out.println("Solo se pueden añadir " + MAX_PEDIDO + " productos al pedido.");
         productos = new Producto[MAX_PEDIDO];
         cantidadPedido = 0;
     }
-    
 
     public void añadirProductosPedido(Producto producto) {
         if (cantidadPedido < productos.length) {
@@ -82,7 +80,7 @@ public class Pedido {
         return codigo;
     }
 
-    public Producto[] getProductosComprados(){
+    public Producto[] getProductosComprados() {
         Producto[] productosComprados = new Producto[cantidadPedido];
         for (int i = 0; i < cantidadPedido; i++) {
             productosComprados[i] = productos[i];
@@ -91,7 +89,7 @@ public class Pedido {
     }
 
     public void vaciarPedido() {
-            Producto[] productosComprados = new Producto[MAX_PEDIDO];
-            cantidadPedido = 0;
+        productos = new Producto[MAX_PEDIDO];
+        cantidadPedido = 0;
     }
 }

@@ -1,4 +1,5 @@
 package codigosEstudiar.SimuladorTienda;
+
 import java.util.Scanner;
 
 public class Tienda {
@@ -7,9 +8,19 @@ public class Tienda {
         Tienda tienda = new Tienda();
         Almacen almacen = new Almacen();
         tienda.realizarPedido(almacen);
-        
+
         almacen.mostrarInventario();
 
+        Cliente[] clientes = new Cliente[Cliente.MAX_CLIENTES];
+
+        for (int i = 0; i < clientes.length; i++) {
+            String nombreAleatorio = Cliente.getNombreAleatorio();
+            clientes[i] = new Cliente(nombreAleatorio);
+        }
+        
+        int clienteActual = (int)(Math.random() * Cliente.MAX_CLIENTES);
+        Cliente elegido = clientes[clienteActual];
+        System.out.println("Cliente elegido: " + elegido.getNombre());
     }
 
     private Pedido pedido;
@@ -59,7 +70,7 @@ public class Tienda {
             case 4 -> {
                 System.out.println("Saliendo...");
                 return false;
-            } 
+            }
             default -> System.out.println("Opción inválida.");
         }
         return true;
@@ -88,5 +99,4 @@ public class Tienda {
         }
     }
 
-    
 }
