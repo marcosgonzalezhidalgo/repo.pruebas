@@ -31,9 +31,17 @@ public class Banco {
         return nombreBanco + " - " + codigoBanco;
     }
 
-    public int cantidadDineroDelBanco(int cantidadDinero) {
+    public int cantidadDineroDelBanco() {
        return cantidadDineroBanco[numeroAleatorio];
 
+    }
+
+    public void aumentarCantidadDineroBanco(int cantidadDinero) {
+        this.cantidadDineroBanco[numeroAleatorio] += cantidadDinero;
+    }
+    
+    public void disminuirCantidadDineroBanco(int cantidadDinero) {
+        this.cantidadDineroBanco[numeroAleatorio] -= cantidadDinero;
     }
 
     public String toString(){

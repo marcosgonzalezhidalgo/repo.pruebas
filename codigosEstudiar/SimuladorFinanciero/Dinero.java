@@ -28,7 +28,7 @@ public class Dinero {
     }
 
     public int getCantidadDineroDelBanco(int cantidadDinero) {
-        return banco.cantidadDineroDelBanco(cantidadDinero);
+        return banco.cantidadDineroDelBanco();
     }
 
     public String getBancoUsuario() {
