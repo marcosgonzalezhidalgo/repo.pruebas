@@ -2,9 +2,9 @@ package codigosEstudiar.Biblioteca;
 
 import java.util.Scanner;
 
-public class Blibioteca {
+public class Biblioteca {
 
-    public static void main(String[] args) {
+    public Biblioteca() {
         Scanner scanner = new Scanner(System.in);
 
         Usuario usuario = preguntarPersona(scanner);
