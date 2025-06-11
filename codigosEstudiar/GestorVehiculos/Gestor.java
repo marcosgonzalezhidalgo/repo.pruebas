@@ -4,37 +4,33 @@ import java.util.Scanner;
 
 public class Gestor {
     public static void main(String[] args) {
-        iniciarVehiculos();
-
+        Scanner scanner = new Scanner(System.in);
+        iniciarVehiculos(scanner);
     }
 
-    public static void iniciarVehiculos() {
+    public static void iniciarVehiculos(Scanner scanner) {
         System.out.println("Bienvenido al Gestor de Vehículos");
         System.out.println("Que desea comprar? \n1. Coche\n2. Moto\n3. Camión");
-        Scanner scanner = new Scanner(System.in);
         int opcion = scanner.nextInt();
 
         if (opcion == 1) {
-            Vehiculo coche = crearVehiculo("coche");
+            Vehiculo coche = crearVehiculo("coche", scanner);
             coche.mostrarInformacion();
         } else if (opcion == 2) {
-            Vehiculo moto = crearVehiculo("moto");
+            Vehiculo moto = crearVehiculo("moto", scanner);
             moto.mostrarInformacion();
         } else if (opcion == 3) {
-            Vehiculo camion = crearVehiculo("camion");
+            Vehiculo camion = crearVehiculo("camion", scanner);
             camion.mostrarInformacion();
         } else {
             System.out.println("Opción no válida. Por favor, intente de nuevo.");
         }
 
-        scanner.close();
     }
 
-    public static Vehiculo crearVehiculo(String type) {
-        Scanner scanner = new Scanner(System.in);
+    public static Vehiculo crearVehiculo(String type, Scanner scanner) {
         String marca = "", modelo = "", color = "";
         String año = "";
-
         switch (type.toLowerCase()) {
             case "coche":
                 Coche.mostrarOpciones();
