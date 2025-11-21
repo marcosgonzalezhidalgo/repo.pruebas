@@ -1,3 +1,5 @@
+package SpaceInvanders;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -11,11 +13,11 @@ public class SpaceInvaders extends JFrame {
         setTitle("Space Invaders Java");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
-        
+
         GamePanel gamePanel = new GamePanel();
         add(gamePanel);
         pack();
-        
+
         setLocationRelativeTo(null);
         setVisible(true);
     }
@@ -112,7 +114,7 @@ public class SpaceInvaders extends JFrame {
             g.setColor(Color.WHITE);
             g.setFont(font);
             g.drawString(msg, (BOARD_WIDTH - fm.stringWidth(msg)) / 2, BOARD_HEIGHT / 2);
-            
+
             String restartMsg = "Press R to Restart";
             g.setFont(new Font("Helvetica", Font.PLAIN, 16));
             fm = getFontMetrics(g.getFont());
@@ -167,7 +169,7 @@ public class SpaceInvaders extends JFrame {
                     alien.y += 15; // Move down
                 }
                 alien.move();
-                
+
                 if (alien.y > BOARD_HEIGHT - 50) {
                     inGame = false;
                     message = "Invasion Successful!";
@@ -219,7 +221,7 @@ public class SpaceInvaders extends JFrame {
                     bullets.add(new Bullet(player.x + player.width / 2 - 2, player.y));
                 }
             }
-            
+
             if (key == KeyEvent.VK_R && !inGame) {
                 initGame();
             }
@@ -235,7 +237,8 @@ public class SpaceInvaders extends JFrame {
         }
 
         @Override
-        public void keyTyped(KeyEvent e) {}
+        public void keyTyped(KeyEvent e) {
+        }
     }
 
     // --- Entity Classes ---
@@ -252,8 +255,10 @@ public class SpaceInvaders extends JFrame {
 
         public void move(int boardWidth) {
             x += dx;
-            if (x < 0) x = 0;
-            if (x > boardWidth - width) x = boardWidth - width;
+            if (x < 0)
+                x = 0;
+            if (x > boardWidth - width)
+                x = boardWidth - width;
         }
 
         public Rectangle getBounds() {
@@ -296,7 +301,8 @@ public class SpaceInvaders extends JFrame {
 
         public void move() {
             y -= speed;
-            if (y < 0) isVisible = false;
+            if (y < 0)
+                isVisible = false;
         }
 
         public Rectangle getBounds() {
